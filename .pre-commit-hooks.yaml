@@ -1,0 +1,7 @@
+- id: review-lint
+  name: review-lint
+  description: Linter for code-review
+  entry: review-lint
+  types: [go]
+  exclude: '(^|/)vendor/'
+  language: golang
